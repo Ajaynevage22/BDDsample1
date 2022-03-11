@@ -36,6 +36,7 @@ public class Loginstep {
 			WebDriver driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.get("https://the-internet.herokuapp.com/login");
+		//used to see push and pull
 
 	}
 	@When("User enter credentials")
